@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+/*header*/
+header{
+    background-color: bisque;
+    color : white;
+    height : 90px;
+    width : 100%;
+    position: fixed;
+    top : 0;
+    z-index : 10;
+}
+
+.header-left{
+    float : left;
+    padding : 0 20px;
+}
+
+.header-list a{
+    float : left;
+    padding : 33px 20px;
+    color : green;
+    opacity : 0.7;
+}
+
+.header-list a:hover{
+    opacity : 1.0;
+    color : purple;
+}
+
+.header-right a{
+    float : right;
+    color : green;
+    padding : 33px 30px;
+    opacity : 0.7;
+}
+
+.header-right a:hover{
+    opacity : 1.0;
+    color : purple;
+}
+
+.logo{
+    width : 124px;
+    margin-top : 20px;
+}
+
+.space_1{
+    padding-top : 90px
+}
+/*header*/
+
+/*main*/
+.copy-container{
+    width : 1170px;
+    padding : 0 15px;
+    margin : 0 auto;
+    text-align: left;
+}
+
+.copy-container h1{
+    color: cornflowerblue;
+    font-size: 50px;
+}
+
+.copy-container h2{
+    color:darkolivegreen;
+    font-size : 20px
+}
+
+.space_2{
+    border-top: 1px solid gray;
+    padding-top : 10px
+}
+
+.main-title{
+    text-align: center;
+    font-size : 30px;
+    padding-bottom: 50px;
+}
+
+
+.Japanese-title{
+    color: cornflowerblue;
+}
+
+.English-title{
+    color:darkgray;
+}
+
+.text{
+    padding-bottom: 20px;
+}
+
+.space-3{
+    padding-bottom: 10px;
+}
+
+.closing-text{
+    padding-bottom: 50px;
+}
+
+.divide{
+    padding-bottom: 50px;
+}
+/*main*/
+
+/*footer*/
+footer{
+    background-color: darkolivegreen;
+    height : 100px;
+    padding : 30px;
+    color: white;
+}
+
+.footer-message{
+    font-size : 20px;
+    padding-bottom: 10px;
+}
+
+.footer-list{
+    float : right;
+    font-size : 20px;
+}
+
+.footer-list a{
+    color: antiquewhite;
+    opacity : 0.7;
+}
+
+.footer-left{
+    float : left;
+}
+
+footer p{
+    text-align: center;
+}
+
+.space_3{
+    padding : 20px;
+}
+
+.change-color-when-hover:hover{
+    opacity : 1.0;
+    color : red;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+    margin-right : 10px;
+}
+
+.instagram{
+    background-color: #f09433;
+}
+
+
+/*footer*/
